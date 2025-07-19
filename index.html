@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,30 +8,65 @@
 </head>
 <body>
     <header>
-        <h1>Ayesha Muqadas</h1>
-        <p>Computer Science Student | Game Developer | Web Enthusiast</p>
+        <div class="profile-container">
+            <img src="assets/img/profile.jpg" alt="Ayesha Muqadas" class="profile-img"/>
+            <div>
+                <h1>Ayesha Muqadas</h1>
+                <p>Computer Science Student | Game Developer | Web Enthusiast</p>
+            </div>
+        </div>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I’m a Computer Science student at FAST NUCES Islamabad with a passion for building intuitive websites and developing engaging games. I'm currently in my 6th semester and looking to grow my portfolio with exciting real-world projects.</p>
+        <p>I’m a dedicated Computer Science student at FAST NUCES Islamabad in my 6th semester. I specialize in creating responsive websites and developing interactive games. With a strong foundation in systems programming, data visualization, and cross-platform app development, I'm seeking real-world opportunities where I can contribute, grow, and learn alongside experienced professionals.</p>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>C, C++, Java, C#, Python, Assembly</li>
-            <li>HTML, CSS, JavaScript, WordPress, Flutter</li>
-            <li>SQL, Tableau, Excel, Packet Tracer</li>
-        </ul>
+        <div class="skills-container">
+            <span class="skill-badge">C</span>
+            <span class="skill-badge">C++</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">C#</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Assembly</span>
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">WordPress</span>
+            <span class="skill-badge">Flutter</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Tableau</span>
+            <span class="skill-badge">Excel</span>
+            <span class="skill-badge">Packet Tracer</span>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Pacman in Assembly</h3>
+            <p>Low-level game development showcasing system-level understanding.</p>
+        </div>
+        <div class="project-card">
+            <h3>Custom WordPress Site</h3>
+            <p>A user-friendly, visually appealing website designed from scratch.</p>
+        </div>
+        <div class="project-card">
+            <h3>Game Collection</h3>
+            <p>Self-developed Tetris, Dodgers, and Chess games.</p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
         <ul>
-            <li><strong>Pacman in Assembly</strong> – Low-level game development showcasing system-level understanding.</li>
-            <li><strong>Custom WordPress Site</strong> – A user-friendly, visually appealing website.</li>
-            <li><strong>Game Collection</strong> – Tetris, Dodgers, and Chess games built independently.</li>
+            <li>Java From Scratch – Udemy</li>
+            <li>Flutter Bootcamp – GDGoC PIEAS</li>
+            <li>Data Visualization with Python & Tableau – Udemy</li>
+            <li>Portfolio Website Dev – Coursera</li>
+            <li>Python Exploration – Microsoft</li>
         </ul>
     </section>
 
@@ -43,8 +77,14 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: ayeshamuqadas030@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/ayesha-muqadas" target="_blank">linkedin.com/in/ayesha-muqadas</a></p>
+        <form action="https://formspree.io/f/mkgzowod" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" rows="1" placeholder="Your Message" required></textarea>
+            <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+        <p>Or email me directly: <a href="mailto:ayeshamuqadas030@gmail.com">ayeshamuqadas030@gmail.com</a></p>
+        <a class="contact-btn" href="https://linkedin.com/in/ayesha-muqadas" target="_blank">LinkedIn</a>
     </section>
 
     <footer>
